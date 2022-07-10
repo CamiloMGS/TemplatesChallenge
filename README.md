@@ -5,3 +5,5 @@ Marrying atoms with bytes!!
 
 # To play in the Unity editor, please set the game window to portrait, enjoy!!!
 ![image](https://user-images.githubusercontent.com/93027900/178163117-01ad1cd0-416e-42da-b9d7-b04895558c15.png)
+
+Disclaimer, this game has only been tested on Android.
