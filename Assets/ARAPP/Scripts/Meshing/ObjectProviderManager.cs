@@ -37,7 +37,7 @@ public class ObjectProviderManager : MonoBehaviour
 
     [Header("Object Generation Parameters")]
     [SerializeField] private float groundTolerance = 0.05f;
-    [SerializeField] private float centerOffset = 0.2f;
+    [SerializeField] private float centerOffset = 0.15f;
     [SerializeField] private float appleOffset = 0.015f;
     [SerializeField] private float minDisEnemies = 0.4f;
 
@@ -142,11 +142,16 @@ public class ObjectProviderManager : MonoBehaviour
             {
                 if (FloorMeshes.Contains(key))
                 {
+
                     FloorMeshes.Remove(key);
                 }
             }
         }
+
     }
+
+
+
     private void ActivateFloorFinder()
     {
         StartCoroutine(CallFirstApples());
