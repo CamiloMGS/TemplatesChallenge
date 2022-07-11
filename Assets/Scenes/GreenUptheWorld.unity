@@ -2170,7 +2170,7 @@ MonoBehaviour:
   - {fileID: 6128467278411194192, guid: f97c4abe606cec349a3af41b6bc65565, type: 3}
   - {fileID: 2398717094945021408, guid: cdea4122e0e841244a6697290c203646, type: 3}
   groundTolerance: 0.05
-  centerOffset: 0.175
+  centerOffset: 0.2
   appleOffset: 0.015
   minDisEnemies: 0.4
   SnakeManagerGO: {fileID: 0}
